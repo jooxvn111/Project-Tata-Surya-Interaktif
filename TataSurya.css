@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+  background: url('images/Bintang.jpg') repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.header {
+  margin-top: 70px;
+}
+
+.header h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 10px;
+}
+
+.solar-system {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.sun {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-image: url('images/Sun.jpg');
+  background-size: cover;
+  box-shadow: 0 0 30px #ffcc00;
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.planet {
+  width: 120px;
+  height: 120px;
+  border-radius: 70%;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.planet:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 15px white;
+}
+
+
+.merkurius { background-image: url('images/Mercury.jpg');}
+.venus     { background-image: url('images/Venus.jpg'); }
+.bumi      { background-image: url('images/Earth.jpg'); }
+.mars      { background-image: url('images/Mars.jpg'); }
+.jupiter   { background-image: url('images/Jupiter.jpg'); }
+.saturnus  { background-image: url('images/Saturn.jpg'); }
+.uranus    { background-image: url('images/Uranus.jpg'); }
+.neptunus  { background-image: url('images/Neptune.jpg'); }
